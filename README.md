@@ -4,9 +4,9 @@
 
 ### Guideline to contributing to this Project.
 
-* ### `Fork and clone the project into your local machine`
-* ### `Run npm install` to install all dependencies from package.json file.
-* ### `npm start` to start the project
+* `Fork and clone the project into your local machine`
+*  `Run npm install` to install all dependencies from package.json file.
+*  `npm start` to start the project
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
