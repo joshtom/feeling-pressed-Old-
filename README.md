@@ -17,7 +17,8 @@ You will also see any lint errors in the console.
 * > Make sure you create a branch before starting your work, Any PR sent to the master branch will not be merged.
 
 > `Also, Don't forget to write clean commit message.`
-
+## Current Version
+* Version 1.0
 ## Contributors 
 ![Olajide Joshua](https://res.cloudinary.com/drqltx8ye/image/upload/v1557413751/20190509_150157_qygu2e.jpg)
 <!-- ![Your name](cloudinaryimageurl) -->
