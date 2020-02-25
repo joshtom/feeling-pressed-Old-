@@ -20,14 +20,8 @@ You will also see any lint errors in the console.
 ## Current Version
 * Version 1.0
 ## Contributors 
-![Olajide Joshua](https://res.cloudinary.com/drqltx8ye/image/upload/v1557413751/20190509_150157_qygu2e.jpg)
+
+<img src="https://res.cloudinary.com/drqltx8ye/image/upload/v1557413751/20190509_150157_qygu2e.jpg" alt="Olajide Joshua" width="50" height="50" style="border-radius: 50%">
 <!-- ![Your name](cloudinaryimageurl) -->
 <!-- ![Your name](cloudinaryimageurl) -->
 <!-- ![Your name](cloudinaryimageurl) -->
-<style>
-img{
-   width:50px;
-   height:50px;
-   border-radius: 50%;
-}
-</style>
