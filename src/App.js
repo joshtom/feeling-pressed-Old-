@@ -1,11 +1,18 @@
 import React from "react";
-import Footer from "./elements/Footer";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import * as ROUTES from '../src/constants/routes';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <Footer />
-    </div>
+      <Router>
+        <Switch>
+        <Header />
+        <Footer />
+        </Switch>
+      </Router>
   );
 }
 
