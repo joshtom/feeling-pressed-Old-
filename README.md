@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 
 ## Contributors
 
-<img src="https://res.cloudinary.com/drqltx8ye/image/upload/v1557413751/20190509_150157_qygu2e.jpg" alt="Olajide Joshua" width="50" height="50" style="border-radius: 50%">
+<img src="https://res.cloudinary.com/drqltx8ye/image/upload/v1557413751/20190509_150157_qygu2e.jpg" alt="Olajide Joshua" width="50" height="50" style="border-radius: 50%" style="display: inline-block;">
 <img src="https://res.cloudinary.com/john-pels/image/upload/v1583354722/My_image.jpg" alt="Ajeigbe John Oluwaseyif" width="50" height="50"/>
 <!-- ![Your name](cloudinaryimageurl) -->
 <!-- ![Your name](cloudinaryimageurl) -->
