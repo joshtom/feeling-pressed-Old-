@@ -1,5 +1,11 @@
 $color: hsla(38, 100%, 68%, 1);
-.navbar-brand.header__logo {
-    color: yellow;
+$bg: hsla(210, 1%, 23%, 1);
+.header {
+    background: $bg;
+    width: auto;
+    height: auto;
+    .navbar-brand.header__logo {
+    color: $color;
     font-weight: 900;
+}
 }

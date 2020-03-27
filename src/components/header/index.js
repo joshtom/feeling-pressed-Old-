@@ -11,7 +11,8 @@ import './styles.scss';
 
 export default function Header() {
   return(
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <div className="header">
+    <Navbar bg="dark" expand="lg" variant="dark" className="container">
     <Navbar.Brand href="#home" className="header__logo">FEELING PRESSED</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -23,5 +24,6 @@ export default function Header() {
       </Nav>
     </Navbar.Collapse>
   </Navbar>
+  </div>
   )
 }
