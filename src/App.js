@@ -9,8 +9,10 @@ function App() {
   return (
       <Router>
         <Switch>
+        <div className="App">
         <Header />
         <Footer />
+        </div>
         </Switch>
       </Router>
   );
