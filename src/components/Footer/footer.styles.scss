@@ -68,7 +68,7 @@
 
                 .btn-submit {
                     position: absolute;
-                    right: 1.2em;
+                    right: 1.8em;
                     border-radius: 50%;
                     background: #010101;
                     color: #D6D6D4;
@@ -77,6 +77,11 @@
                     border: none;
                     height: 60px;
                     transition: all .5s ease-in-out;
+
+                    @media(max-width:767px) {
+                        right: 1.2em;
+
+                    }
 
                     &:hover {
                         background: lighten(#010101, 10%);
