@@ -83,7 +83,9 @@ const ContactPage = () => (
             <div className="col-lg-6 col-sm-12">
               <div className="left-col">
                 <form action="" className="contact-form">
-                  <h3 className="form-h3 text-center">Send us a Message</h3>
+                  <h3 className="form-h3 text-center pb-4">
+                    Send us a Message
+                  </h3>
                   <input
                     type="text"
                     placeholder="First Name"
