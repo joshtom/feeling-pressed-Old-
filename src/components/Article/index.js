@@ -8,15 +8,36 @@ export default function Article() {
     return(
         <div className="article">
             <div className="container">     
-                <div className="row">
+                <div className="row mb-4">
                     <div className="col-lg-12 col-md-12 col-sm-12 mt-4">
-                        <h1 className="">
+                        <h3 className="">
                             Articles
-                        </h1>
-                        <Link to="/articles"> view all <ArrowForwardIosIcon /></Link>
+                        </h3>
+                        <Link to="/articles"> view all </Link>
                     </div>
                 </div>
-                <div className="row bg-dark">
+                <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12">
+                        <Card />
+                    </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <Card />
                     </div>
