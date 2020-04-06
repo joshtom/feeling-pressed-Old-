@@ -7,6 +7,25 @@ $bg: hsla(210, 1%, 23%, 1);
     display: flex;
     align-items: center;
 
+    Button {
+        min-width: 120px;
+        min-height: 50px;
+
+        &.btn {
+            background: $color;
+            color: black;
+        }
+        &.btn-2 {
+            border: 1px solid $color;
+            color: #fff;
+
+            &:hover, &:focus-within {
+                background: $color;
+                color: #000000;
+            }
+        }
+    }
+
     @media screen and (max-width: 700px) {
         min-height: 70vh;
     }
@@ -17,24 +36,5 @@ $bg: hsla(210, 1%, 23%, 1);
     p {
         color: $white;
     }
-    // button {
-    //     margin: auto 5px;
-    //     padding: 0.500rem 2.75rem;
-    //     font-weight: 600;
-
-    //     &.btn__signup {
-    //         color: #000000;
-    //         background: $color !important;
-    //     }
-    //     &.btn__learn {
-    //         outline-color: $color;
-    //         color: $white;
-    //         &:hover {
-    //             background: $color;
-    //             border-color: $color;
-    //             color: #000000;
-    //         }
-    //     }
-
-    // }
+    
 }

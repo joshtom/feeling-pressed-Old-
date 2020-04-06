@@ -7,13 +7,21 @@ $bg: hsla(210, 1%, 23%, 1);
 
     .container {
         min-height: 70px;
+        a {
+         color: $color;   
+        }
     }
     .navbar-brand.header__logo {
     color: $color;
     font-weight: 900;
 
+    a {
+        color: $color;
+    }
+
     nav {
         min-height: 200px;
+        
     }
 }
 }
