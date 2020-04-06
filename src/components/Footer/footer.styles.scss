@@ -10,7 +10,24 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ffc55c #fff;
 }
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffc55c;
+    border-radius: 20px;
+    border: 3px solid #ffc55c;
+}
+
 
 .footer {
     display: flex;
