@@ -4,8 +4,16 @@ $bg: hsla(210, 1%, 23%, 1);
     background: $bg;
     width: auto;
     height: auto;
+
+    .container {
+        min-height: 70px;
+    }
     .navbar-brand.header__logo {
     color: $color;
     font-weight: 900;
+
+    nav {
+        min-height: 200px;
+    }
 }
 }
