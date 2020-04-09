@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../../components/header";
-import Footer from "../../components/Footer";
 
 import "./about.styles.scss";
 
 const AboutPage = () => (
   <>
-    <Header />
     <main className="about-page">
       <section className="people-bg">
         <div className="container">
@@ -114,7 +111,6 @@ const AboutPage = () => (
         </div>
       </section>
     </main>
-    <Footer />
   </>
 );
 
