@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/header";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -8,12 +8,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import Footer from "../../components/Footer";
 import "./contact.styles.scss";
 
 const ContactPage = () => (
   <>
-    <Header />
     <main className="contact-page">
       <section className="people-bg">
         <div className="container">
@@ -120,7 +118,6 @@ const ContactPage = () => (
         </section>
       </div>
     </main>
-    <Footer />
   </>
 );
 
