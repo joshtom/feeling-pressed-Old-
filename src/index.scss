@@ -9,7 +9,7 @@ $max_font: 16;
 
 // Looking for a mixin? Try: https://codepen.io/MadeByMike/pen/vNrvdZ
 
-:root { font-size: #{$min_font}px; }
+:root { font-size: #{$min_font}px; letter-spacing: 0.03em; }
 // This part is a little bit ugly, I will explain what is going on in a blog post soon.
 @media (min-width: #{$min_width}px) and (max-width: #{$max_width}px){
   :root { 

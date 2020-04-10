@@ -4,7 +4,7 @@ import  Button  from '@material-ui/core/Button';
 import Background from '../../assets/jack-sharp-OptEsFuZwoQ-unsplash.png';
 
 const bgImage = {
-  background: `url(${Background}) no-repeat`,
+  background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(${Background}) center center no-repeat`,
   backgroundSize: 'cover',
 }
 export default function Main() {
