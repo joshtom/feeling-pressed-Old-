@@ -129,6 +129,11 @@
                 position: absolute;
                 top: .8em;
                 left: .8em;
+
+                @media (max-width:600px) {
+                    top: 1.1em;
+                    left: 1.1em;
+                }
             }
         }
 
