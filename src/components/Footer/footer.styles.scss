@@ -117,7 +117,9 @@
         cursor: pointer;
 
         .media-handles {
-            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -125,15 +127,9 @@
             background: #D6D6D4 0% 0% no-repeat padding-box;
 
             .icon {
-                color: #010101;
-                position: absolute;
-                top: .8em;
-                left: .8em;
 
-                @media (max-width:600px) {
-                    top: 1.1em;
-                    left: 1.1em;
-                }
+                align-self: center;
+                color: #010101;
             }
         }
 
